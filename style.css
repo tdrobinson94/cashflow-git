@@ -25,16 +25,43 @@ body {
   .navbar a {
     margin-left: 30px;
     color: white; }
-  .navbar .home {
-    margin-left: 25%; }
   .navbar .title {
     padding-left: 1%;
     font-size: 30px; }
+  .navbar .title:hover {
+    color: lightgreen;
+    transition: color .5s ease-in-out; }
+  .navbar .home {
+    margin-left: 22%; }
+  .navbar .home:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out; }
+  .navbar .profile:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out; }
+  .navbar .faq:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out; }
   .navbar .login {
-    margin-left: 22%;
+    margin-left: 20%;
     font-size: 20px; }
+  .navbar .login:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out; }
   .navbar .signup {
-    margin-left: 20px;
+    margin-left: 2%;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
@@ -42,7 +69,7 @@ body {
     border-radius: 20px;
     background-color: lightgreen; }
   .navbar .signup:hover {
-    transition: background-color 1s ease;
+    transition: background-color .5s ease;
     background: green; }
 
 .body {

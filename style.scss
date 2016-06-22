@@ -26,20 +26,51 @@ body{
     margin-left: 30px;
     color: white;
   }
-  .home{
-    margin-left: 25%;
-  }
   .title{
     padding-left: 1%;
     font-size: 30px;
   }
-  .login{
+  .title:hover{
+    color: lightgreen;
+    transition: color .5s ease-in-out;
+  }
+  .home{
     margin-left: 22%;
+  }
+  .home:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out;
+  }
+  .profile:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out;
+  }
+  .faq:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out;
+  }
+  .login{
+    margin-left: 20%;
     font-size: 20px;
-
+  }
+  .login:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: lightblue;
+    transition: background-color .5s ease-in-out;
+    transition: border 2s ease-in-out;
   }
   .signup{
-    margin-left: 20px;
+    margin-left: 2%;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
@@ -48,7 +79,7 @@ body{
     background-color: lightgreen;
   }
   .signup:hover{
-    transition: background-color 1s ease;
+    transition: background-color .5s ease;
     background: green;
   }
 }
