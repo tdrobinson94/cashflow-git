@@ -61,6 +61,7 @@ body {
     border: 1px solid transparent; }
   .navbar .home:hover {
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out; }
   .navbar .profile {
     left: 50%;
@@ -69,6 +70,7 @@ body {
     border: 1px solid transparent; }
   .navbar .profile:hover {
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out; }
   .navbar .faq {
     left: 60%;
@@ -77,6 +79,7 @@ body {
     border: 1px solid transparent; }
   .navbar .faq:hover {
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out; }
   .navbar button {
     position: absolute;

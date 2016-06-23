@@ -67,6 +67,7 @@ body{
   }
   .home:hover{
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out;
   }
   .profile{
@@ -77,6 +78,7 @@ body{
   }
   .profile:hover{
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out;
   }
   .faq{
@@ -87,6 +89,7 @@ body{
   }
   .faq:hover{
     color: lightblue;
+    border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out;
   }
   button{
