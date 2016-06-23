@@ -41,6 +41,8 @@ body{
   width: 100%;
   min-width: 845px;
   height: 50px;
+  background-color: transparent;
+  transition: background-color .3s linear;
   button{
     position: absolute;
     top: 10px;
@@ -78,7 +80,7 @@ body{
   }
   .login{
     left: 78%;
-    top: 8px;
+    top: 10px;
     font-size: 15px;
     background-color: transparent;
     border: 1px solid transparent;
@@ -100,13 +102,10 @@ body{
 
 .black_background{
   background-color: black;
-  transition: background-color .2s linear;
-}
-.no_background{
-  background-color: transparent;
-  transition: background-color .2s linear;
+  transition: background-color .3s linear;
 }
 
 .body{
   height: 1000px;
+
 }
