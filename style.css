@@ -16,7 +16,7 @@ body {
   position: absolute;
   top: 150px;
   width: 100%;
-  min-width: 845px;
+  min-width: 550px;
   text-align: center;
   align-content: center;
   font-size: 40px;
@@ -37,7 +37,7 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
-  min-width: 845px;
+  min-width: 550px;
   height: 50px;
   background-color: transparent;
   transition: background-color .3s linear; }
@@ -81,12 +81,8 @@ body {
     color: lightblue;
     border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out; }
-  .navbar button {
-    position: absolute;
-    top: 10px;
-    color: white; }
   .navbar .login {
-    left: 78%;
+    right: 20%;
     top: 10px;
     font-size: 15px;
     background-color: transparent;
@@ -95,12 +91,13 @@ body {
     color: lightblue;
     transition: color .3s ease-in-out; }
   .navbar .signup {
-    left: 90%;
+    right: 2%;
     font-size: 13px;
     background-color: lightgreen;
     border-radius: 20px;
     padding: 5px 14px 5px 14px;
-    border: 1px solid lightgreen; }
+    border: 1px solid lightgreen;
+    min-width: 100px; }
   .navbar .signup:hover {
     background-color: lightblue;
     border-color: lightblue;
