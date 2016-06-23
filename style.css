@@ -51,21 +51,33 @@ body {
     top: 4px;
     background-color: transparent;
     border: 1px solid transparent; }
+  .navbar .title:hover {
+    color: lightblue;
+    transition: color .3s ease-in-out; }
   .navbar .home {
     left: 40%;
     top: 15px;
     background-color: transparent;
     border: 1px solid transparent; }
+  .navbar .home:hover {
+    color: lightblue;
+    transition: color .3s ease-in-out; }
   .navbar .profile {
     left: 50%;
     top: 15px;
     background-color: transparent;
     border: 1px solid transparent; }
+  .navbar .profile:hover {
+    color: lightblue;
+    transition: color .3s ease-in-out; }
   .navbar .faq {
     left: 60%;
     top: 15px;
     background-color: transparent;
     border: 1px solid transparent; }
+  .navbar .faq:hover {
+    color: lightblue;
+    transition: color .3s ease-in-out; }
   .navbar button {
     position: absolute;
     top: 10px;
@@ -76,6 +88,9 @@ body {
     font-size: 15px;
     background-color: transparent;
     border: 1px solid transparent; }
+  .navbar .login:hover {
+    color: lightblue;
+    transition: color .3s ease-in-out; }
   .navbar .signup {
     left: 90%;
     font-size: 13px;
@@ -86,7 +101,7 @@ body {
   .navbar .signup:hover {
     background-color: lightblue;
     border-color: lightblue;
-    transition: background-color border-color 1s ease-in-out; }
+    transition: background-color border-color .3s ease-in-out; }
 
 .black_background {
   background-color: black;

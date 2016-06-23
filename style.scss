@@ -55,11 +55,19 @@ body{
     background-color: transparent;
     border: 1px solid transparent;
   }
+  .title:hover{
+    color: lightblue;
+    transition: color .3s ease-in-out;
+  }
   .home{
     left: 40%;
     top: 15px;
     background-color: transparent;
     border: 1px solid transparent;
+  }
+  .home:hover{
+    color: lightblue;
+    transition: color .3s ease-in-out;
   }
   .profile{
     left: 50%;
@@ -67,11 +75,19 @@ body{
     background-color: transparent;
     border: 1px solid transparent;
   }
+  .profile:hover{
+    color: lightblue;
+    transition: color .3s ease-in-out;
+  }
   .faq{
     left: 60%;
     top: 15px;
     background-color: transparent;
     border: 1px solid transparent;
+  }
+  .faq:hover{
+    color: lightblue;
+    transition: color .3s ease-in-out;
   }
   button{
     position: absolute;
@@ -85,6 +101,10 @@ body{
     background-color: transparent;
     border: 1px solid transparent;
   }
+  .login:hover{
+    color: lightblue;
+    transition: color .3s ease-in-out;
+  }
   .signup{
     left: 90%;
     font-size: 13px;
@@ -96,7 +116,7 @@ body{
   .signup:hover{
     background-color: lightblue;
     border-color: lightblue;
-    transition: background-color border-color 1s ease-in-out;
+    transition: background-color border-color .3s ease-in-out;
   }
 }
 
