@@ -37,7 +37,7 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
-  min-width: 550px;
+  min-width: 820px;
   height: 50px;
   background-color: transparent;
   transition: background-color .3s linear; }
@@ -82,7 +82,7 @@ body {
     border-bottom: 3px solid lightgreen;
     transition: color .3s ease-in-out; }
   .navbar .login {
-    right: 20%;
+    right: 15%;
     top: 10px;
     font-size: 15px;
     background-color: transparent;
